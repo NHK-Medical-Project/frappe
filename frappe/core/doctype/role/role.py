@@ -37,6 +37,7 @@ class Role(Document):
 		home_page: DF.Data | None
 		is_custom: DF.Check
 		list_sidebar: DF.Check
+		nhk_roles: DF.Check
 		notifications: DF.Check
 		restrict_to_domain: DF.Link | None
 		role_name: DF.Data

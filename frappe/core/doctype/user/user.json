@@ -788,7 +788,7 @@
    "link_fieldname": "user"
   }
  ],
- "modified": "2024-03-23 16:03:59.833565",
+ "modified": "2024-05-04 15:36:19.408625",
  "modified_by": "Administrator",
  "module": "Core",
  "name": "User",
@@ -820,7 +820,7 @@
  ],
  "quick_entry": 1,
  "route": "user",
- "search_fields": "full_name",
+ "search_fields": "full_name,email",
  "show_name_in_global_search": 1,
  "sort_field": "creation",
  "sort_order": "DESC",
