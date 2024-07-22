@@ -15,6 +15,7 @@
   "is_custom",
   "desk_access",
   "two_factor_auth",
+  "nhk_roles",
   "navigation_settings_section",
   "search_bar",
   "notifications",
@@ -142,13 +143,19 @@
    "fieldtype": "Check",
    "in_list_view": 1,
    "label": "Is Custom"
+  },
+  {
+   "default": "0",
+   "fieldname": "nhk_roles",
+   "fieldtype": "Check",
+   "label": "NHK Roles"
   }
  ],
  "icon": "fa fa-bookmark",
  "idx": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-03-13 20:59:37.875253",
+ "modified": "2024-04-12 14:39:57.683740",
  "modified_by": "Administrator",
  "module": "Core",
  "name": "Role",
@@ -168,7 +175,7 @@
   }
  ],
  "quick_entry": 1,
- "sort_field": "modified",
+ "sort_field": "creation",
  "sort_order": "DESC",
  "states": [],
  "track_changes": 1,

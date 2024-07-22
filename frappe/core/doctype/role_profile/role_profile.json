@@ -7,6 +7,8 @@
  "engine": "InnoDB",
  "field_order": [
   "role_profile",
+  "column_break_kkhs",
+  "section_break_nxee",
   "roles_html",
   "roles"
  ],
@@ -34,6 +36,14 @@
    "permlevel": 1,
    "print_hide": 1,
    "read_only": 1
+  },
+  {
+   "fieldname": "column_break_kkhs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_nxee",
+   "fieldtype": "Section Break"
   }
  ],
  "links": [
@@ -43,7 +53,7 @@
    "table_fieldname": "role_profiles"
   }
  ],
- "modified": "2024-02-10 12:22:24.803943",
+ "modified": "2024-05-07 15:25:23.429500",
  "modified_by": "Administrator",
  "module": "Core",
  "name": "Role Profile",
@@ -74,7 +84,7 @@
    "write": 1
   }
  ],
- "sort_field": "modified",
+ "sort_field": "creation",
  "sort_order": "DESC",
  "states": [],
  "title_field": "role_profile",
